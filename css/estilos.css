@@ -1,0 +1,114 @@
+* {
+     margin: 0;
+     padding: 0;
+     list-style-type:none;
+     background-color: black;
+     
+}
+
+body{
+    background-image: url(/img/web\ 2.png);
+    background-size: 98%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.header_image {
+    width: 100%;
+    height: 50%;
+}
+
+#titulo {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font: serif;
+    margin: 10%;
+    background-color: transparent;
+}
+
+#titulo h1{
+    background-color: transparent;
+}
+
+#titulo h3{
+    font-size: 40px;
+    padding-top: 10px;
+    background-color: transparent;
+}
+#concepto{
+    color: white;
+    margin: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    background-color: transparent;
+}
+
+#concepto p{
+    background-color: transparent;
+    font-size: 13px;
+}
+
+#muestra_visual{
+ display: flex;
+ flex-wrap: wrap;
+ background-color: transparent;
+}
+#muestra_visual img{
+    width: 30%;
+    margin: 10%;
+}
+.pdf{
+    margin: 5%;
+}
+/*Acuerdate de esto de aqui  Inico celular*/
+
+@media (max-width: 650px)
+ {     
+
+#titulo {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font: serif;
+    margin: 10%;
+    background-color: transparent;
+}
+
+#titulo h1{
+    background-color: transparent;
+}
+
+#titulo h3{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: transparent;
+}
+#concepto{
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    background-color: transparent;
+}
+
+#concepto p{
+    background-color: transparent;
+}
+
+#muestra_visual{
+ display: flex;
+ flex-wrap: wrap;
+ background-color: transparent;
+}
+#muestra_visual img{
+    width: 30%;
+    margin: 10%;
+    object-fit:cover;
+}
+}
